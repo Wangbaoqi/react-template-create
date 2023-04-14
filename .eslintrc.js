@@ -1,16 +1,10 @@
-
 module.exports = {
   root: true,
-  extends: [
-    "react-app",
-    "react-app/jest"
-  ],
+  extends: ['react-app', 'react-app/jest'],
   overrides: [
     {
-      "files": ["**/*.ts?(x)"],
-      "rules": {
-        
-      }
-    }
-  ]
-}
+      files: ['**/*.ts?(x)'],
+      rules: {},
+    },
+  ],
+};
